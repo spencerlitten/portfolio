@@ -7,7 +7,7 @@
 body
 {
 	font-family:;
-	color:#fff;
+	/*color:#fff;*/
 	background-color:gray;
 	/*prevents horizontal scrolling*/
 	overflow-x:hidden;
@@ -39,17 +39,6 @@ img
 	min-width:2000px;
 }
 
-/*style rules for the drop-down menu*/
-ul.dropdown
-{
-	list-style-type:none;
-	font-size:2em;
-	position:absolute;
-	right:10px;
-	top:-5px;
-
-}
-
 .services
 {
 	margin-left:0px;
@@ -63,4 +52,32 @@ ul.dropdown
 	top:700px;
 	left:50px;
 	position:absolute;
+}
+
+#map
+{
+	position:relative;
+	left:-800px;
+	top:-200px;
+}
+
+.btn-info
+{
+	background-color:green;
+}
+
+.btn-info:hover
+{
+	background-color:;
+}
+
+/*changes the background color when the menu button is clicked*/
+.btn-info:focus
+{
+
+}
+
+.modal-content
+{
+	background-color:green;
 }
