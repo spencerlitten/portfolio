@@ -1,0 +1,66 @@
+/*declare custom fonts*/
+@font-face{
+	font-family:antic;
+	src:url('../fonts/antic-slab/AnticSlab.ttf');
+}
+
+body
+{
+	font-family:;
+	color:#fff;
+	background-color:gray;
+	/*prevents horizontal scrolling*/
+	overflow-x:hidden;
+}
+
+img
+{
+	position:absolute;
+	left:610px;
+	top:100px;
+}
+
+#head-text
+{
+	font-family:antic;
+	font-size:30px;
+	position:absolute;
+	/*moves the text right 900px and down 200px*/
+	left:750px;
+	top:100px;
+}
+
+/*sets the background of the welcome text to an image as well as specifies the width and height*/
+.head
+{
+	background-image:url('../images/pub.png');
+	background-repeat:no-repeat;
+	min-height:900px;
+	min-width:2000px;
+}
+
+/*style rules for the drop-down menu*/
+ul.dropdown
+{
+	list-style-type:none;
+	font-size:2em;
+	position:absolute;
+	right:10px;
+	top:-5px;
+
+}
+
+.services
+{
+	margin-left:0px;
+	padding-left:270px;
+	position:absolute;
+	font-size:2em;
+}
+
+.contact
+{
+	top:700px;
+	left:50px;
+	position:absolute;
+}
